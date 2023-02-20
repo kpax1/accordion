@@ -1,0 +1,27 @@
+.AccordionContainer{
+margin-top:30%;
+display: flex;
+flex-direction: column;
+font-family: 'Space Mono', monospace;
+background-color: rgba(240, 248, 255, 0.545);
+width: 90%;
+align-items: center;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+align-self: center;
+}
+
+.AccordionContent{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        align-self: center;
+        width: 100%;
+        
+}
+
+
+h1{
+        text-align: center;
+        margin-top: 1.7rem;
+        margin-bottom: 1em;
+}

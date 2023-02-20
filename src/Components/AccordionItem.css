@@ -1,0 +1,43 @@
+
+.AccordionItem {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    justify-content: space-between;
+    padding-left: 10px;
+    line-height: 2rem;
+
+}
+
+.AccordionItem:last-child {
+    border-bottom: none;
+}
+
+.question-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color :hsl(237, 12%, 33%);
+
+}
+
+
+
+.Arrow{
+    margin-right: 10px;
+}
+
+.itemcontent{
+    color: hsl(240, 6%, 50%);
+    font-size: 14px;
+    margin: 2px;
+}
+
+
+
+
+.Arrow.up{
+    transform: rotate(180deg);
+
+}
+

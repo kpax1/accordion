@@ -1,0 +1,16 @@
+.img {
+  position: relative;
+  margin-top: 1rem;
+  background-image: url('./images/bg-pattern-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: 2em 1rem;
+  padding-bottom: 2rem;
+}
+
+.img img{
+    position: relative;
+    width: 100%;
+    margin-top: -9rem;
+}
+
+
