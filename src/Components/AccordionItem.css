@@ -21,6 +21,10 @@
 
 }
 
+.question-img :active{
+    color :hsl(34, 100%, 45%);
+
+}
 
 
 .Arrow{
