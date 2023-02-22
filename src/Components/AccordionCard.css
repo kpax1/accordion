@@ -25,3 +25,17 @@ h1{
         margin-top: 1.7rem;
         margin-bottom: 1em;
 }
+
+
+
+
+@media only screen and (min-width: 768px) {
+        .AccordionContainer{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin: 6rem;
+                gap: 10px;
+                overflow: hidden;
+        }
+
+}

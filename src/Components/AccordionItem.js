@@ -7,10 +7,10 @@ export default function AccordionItem(props) {
     
     <div  onClick={()=>handleClick(itemNumber)}
     className='AccordionItem'>
-      
+
       <div className='question-img'>
       <div className='title'>
-      <p>{title} </p>
+      {activeAccordionNumber===itemNumber ? <p style={{ fontWeight: '700' }}>{title} </p> : <p> {title}</p>}
       </div>
      <div className={activeAccordionNumber !==itemNumber ? 'Arrow' : 'Arrow up'}>
       <img src={ArrowDown}/>

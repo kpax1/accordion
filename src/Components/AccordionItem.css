@@ -25,6 +25,7 @@
 
 .Arrow{
     margin-right: 10px;
+
 }
 
 .itemcontent{
@@ -38,6 +39,5 @@
 
 .Arrow.up{
     transform: rotate(180deg);
-
 }
 

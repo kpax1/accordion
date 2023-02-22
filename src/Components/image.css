@@ -13,4 +13,23 @@
     margin-top: -9rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .img{   
+    background-image: url('./images/bg-pattern-desktop.svg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -5em -6em;
+    transform: translateX(-1.5em);
+}
+
+.img img{
+    width: 70% !important;
+    margin: 0px; 
+    width: 80%;
+
+}
+}
+
+
 

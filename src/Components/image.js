@@ -5,6 +5,7 @@ export default function Image() {
   return (
     <div className='img'>
         <img src={imagefor} />
+
         </div>
       
   )

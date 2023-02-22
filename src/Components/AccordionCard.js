@@ -46,9 +46,9 @@ function AccordionCard() {
 
       <div className="AccordionContainer">
             <Image />
-            <h1> F A Q </h1>
 
         <div className='AccordionContent'> 
+        <h1> F A Q </h1>
 
         {items.map((item)=>{
           return <AccordionItem 
